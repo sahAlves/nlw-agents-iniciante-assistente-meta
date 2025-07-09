@@ -23,19 +23,19 @@
                 <h2 class="title">Assistente de Meta</h2>
                 <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
 
-                <form>
-                    <input type="password" placeholder="Informe a API KEY do Gemini" required>
+                <form id="form">
+                    <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required>
 
-                    <select>
+                    <select id="gameSelect">
                         <option value=""> Selecione um jogo</option>
                         <option value="valorant">Valorant</option>
                         <option value="lol">League of Legends</option>
                         <option value="csgo">CS:GO</option>
                     </select>
 
-                    <input type="text" placeholder="Ex: Melhor build para ADC ..." required>
+                    <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC ..." required>
 
-                    <button>
+                    <button id="askButton">
                         Perguntar
                     </button>
                 </form>
@@ -49,6 +49,8 @@
 
         </section>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
