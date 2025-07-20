@@ -6,6 +6,12 @@ Este projeto é um **Assistente de IA para Gamers**, desenvolvido na trilha inic
 
 ---
 
+![Home](./assets/home.png)
+
+![Resposta](./assets/resposta.png)
+
+---
+
 ## 🚀 Como Rodar o Projeto
 
 Basta abrir o arquivo `index.html` no seu navegador favorito e aproveitar o assistente!
